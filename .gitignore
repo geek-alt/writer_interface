@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment & secrets
+.env
+.env.*
+novelforge.db*
+tmp_*.log
+
+# Node/Vite/Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env.local
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project data
+projects/
+
+
+# Installer scripts
+install.bat
+start.bat
+
+# Misc
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Ignore local config
+*.local
