@@ -6,7 +6,7 @@ __pycache__/
 
 # Environment & secrets
 .env
-.env.*
+!.env.example
 novelforge.db*
 tmp_*.log
 
@@ -28,8 +28,7 @@ projects/
 
 
 # Installer scripts
-install.bat
-start.bat
+# (Committed; keep them in repository)
 
 # Misc
 *.bak
