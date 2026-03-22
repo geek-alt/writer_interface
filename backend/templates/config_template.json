@@ -1,0 +1,84 @@
+{
+  "_version": "3.1",
+  "_instructions": "Fill in all fields. Remove every key that starts with underscore (_) before uploading. Required fields are marked.",
+  "_options": {
+    "fandom": ["Naruto", "Marvel", "Harry_Potter", "Custom"],
+    "world_selection": ["Canon_Timeline", "AU", "Specific_Arc", "Post-Canon"],
+    "origin_type": ["Reincarnated", "Transmigrated", "Reborn", "SI", "OC"],
+    "power_progression_type": ["Innovation", "Bloodline", "Hardwork", "System"],
+    "knowledge_retention": ["Full_plot", "Partial", "None"],
+    "structure_type": ["volume_based", "arc_based", "saga_based"],
+    "romance_dynamic": ["MC_pursues", "Harem", "Slow_burn", "Enemies_to_lovers", "None"],
+    "style": ["Detailed", "Fast_paced", "Dialogue_heavy", "Action_focused", "Balanced"],
+    "pov": ["Third_person_limited", "Third_person_omniscient", "First_person"]
+  },
+
+  "project_name": "My Naruto SI Story",
+  "fandom": "Naruto",
+  "world_selection": "Canon_Timeline",
+
+  "main_character": {
+    "name": "Kenji Hoshino",
+    "origin_type": "Reincarnated",
+    "pre_transmigration_identity": "Software engineer, strategic gamer",
+    "age_at_start": 7,
+    "iq": 145,
+    "eq": 130,
+    "initial_personality": "Calm, calculating, dry humor, hides emotions behind logic",
+    "starting_abilities": ["Basic chakra control", "Keen observation"],
+    "power_progression_type": "Innovation",
+    "knowledge_retention": "Full_plot",
+    "goals": [
+      "Prevent the Uchiha massacre",
+      "Build a power base before Shippuden",
+      "Change the cycle of hatred"
+    ]
+  },
+
+  "world_modifications": {
+    "timeline_divergence": "Story starts 5 years before canon Part I",
+    "canon_changes": "MC presence subtly shifts Konoha politics",
+    "forbidden_knowledge_rules": "MC remembers anime plot but cannot reveal it directly"
+  },
+
+  "structure": {
+    "type": "volume_based",
+    "volumes": [
+      {
+        "name": "Volume 1: Academy Years",
+        "chapters": 10,
+        "arc_goals": [
+          "Establish MC identity and abilities",
+          "Form core friendships",
+          "Graduate at top of class"
+        ]
+      },
+      {
+        "name": "Volume 2: Genin Arc",
+        "chapters": 15,
+        "arc_goals": [
+          "Survive first real missions",
+          "Begin preventing Uchiha tragedy",
+          "Unlock second power tier"
+        ]
+      }
+    ]
+  },
+
+  "relationship_settings": {
+    "romance": {
+      "enabled": true,
+      "preferred_partners": ["Hinata Hyuga"],
+      "dynamic": "Slow_burn"
+    },
+    "friendship_priority": ["Naruto Uzumaki", "Shikamaru Nara"],
+    "rivalry": ["Sasuke Uchiha"]
+  },
+
+  "generation_preferences": {
+    "words_per_chapter": 3500,
+    "review_required": true,
+    "style": "Detailed",
+    "pov": "Third_person_limited"
+  }
+}

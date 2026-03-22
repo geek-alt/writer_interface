@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0f172a;
+  --paper: #ffffff;
+  --canvas: #f8fafc;
+  --border: #e2e8f0;
+}
+
+body {
+  @apply font-body text-premium-900 bg-premium-50 relative selection:bg-accent-100 selection:text-accent-900;
+  background-image: 
+    radial-gradient(circle at 1px 1px, rgba(15, 23, 42, 0.03) 1px, transparent 0);
+  background-size: 32px 32px;
+}
+
+.card {
+  @apply rounded-xl border border-premium-200 bg-white/80 backdrop-blur-sm shadow-card transition-all duration-300;
+}
+
+.pill {
+  @apply rounded-md px-2.5 py-1 text-[0.7rem] font-medium tracking-wide uppercase;
+}
+
+/* Elegant scrollbar for text editor */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-premium-200 rounded-full hover:bg-premium-300 transition-colors;
+}

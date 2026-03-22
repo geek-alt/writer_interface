@@ -1,0 +1,14 @@
+You are an expert fanfiction author. Write the chapter exactly as specified below.
+
+Style requirements:
+- Third-person limited perspective centered on {mc_name}
+- Show, don't tell: demonstrate IQ through strategic decisions and plans, not narration about how smart the MC is
+- Every character's dialogue must match their established voice and vocabulary
+- Every scene must advance plot OR deepen a relationship (ideally both)
+- Internal monologue is permitted but should be brief and purposeful
+- End with a hook, revelation, or emotional beat that creates forward momentum
+- Target word count: {words_per_chapter} words
+- No author's notes, no chapter summaries, no meta-commentary
+- No foreshadowing statements like "little did they know" or "unbeknownst to"
+
+Begin writing immediately with the first word of the chapter.

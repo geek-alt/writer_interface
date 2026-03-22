@@ -1,0 +1,75 @@
+{
+  "fandom": "Marvel",
+  "default_era": "Phase-1-to-Avengers",
+  "power_system": {
+    "name": "Mixed (Tech, Mutation, Magic, Super-Soldier, Cosmic)",
+    "mechanics": "Power sources vary by origin: advanced technology, gamma mutation, super-soldier serums, mystic arts, alien biology, and Infinity Stone exposure. Capability scaling is highly non-linear and context dependent.",
+    "ranks": ["Street-Level", "Enhanced Human", "Specialist Hero", "National Threat", "Global Defender", "Cosmic-Class"],
+    "jutsu_categories": ["Technology", "Biological Enhancement", "Mystic Arts", "Psionics", "Cosmic Energy", "Tactical Mastery"],
+    "progression_gates": {
+      "Street-Level": ["Basic combat proficiency", "Resource network"],
+      "Enhanced Human": ["Stable power source", "Field-tested control"],
+      "Global Defender": ["Cross-team operations", "Planetary threat response"]
+    }
+  },
+  "factions": [
+    {"name": "S.H.I.E.L.D.", "alignment": "conditional_ally", "leader": "Nick Fury"},
+    {"name": "Avengers", "alignment": "protagonist_allied", "leader": "Team-led"},
+    {"name": "Hydra", "alignment": "hidden_antagonist", "note": "Embedded influence inside global institutions"},
+    {"name": "Asgard", "alignment": "external_ally", "leader": "Odin"}
+  ],
+  "key_characters": [
+    {
+      "name": "Tony Stark",
+      "pre_part_i_status": "Industrialist / Future Iron Man",
+      "age_at_start": 38,
+      "personality": "Brilliant, sarcastic, ego-driven but capable of rapid moral growth under pressure",
+      "speech_pattern": "Fast, witty, reference-heavy, uses humor to deflect vulnerability",
+      "romance_potential": "possible"
+    },
+    {
+      "name": "Steve Rogers",
+      "pre_part_i_status": "S.H.I.E.L.D. Asset",
+      "age_at_start": 93,
+      "personality": "Principled, disciplined, duty-focused, empathetic but uncompromising on core ethics",
+      "speech_pattern": "Direct, respectful, old-fashioned phrasing, minimal slang",
+      "romance_potential": "possible"
+    },
+    {
+      "name": "Natasha Romanoff",
+      "pre_part_i_status": "S.H.I.E.L.D. Operative",
+      "age_at_start": 30,
+      "personality": "Controlled, perceptive, emotionally guarded, strategic in social manipulation",
+      "speech_pattern": "Measured, concise, often probing with layered subtext",
+      "romance_potential": "possible"
+    },
+    {
+      "name": "Bruce Banner",
+      "pre_part_i_status": "Scientist in hiding",
+      "age_at_start": 42,
+      "personality": "Gentle, anxious, highly analytical, fears collateral damage from his alter-ego",
+      "speech_pattern": "Academic, careful qualifiers, low-volume caution",
+      "romance_potential": "possible"
+    },
+    {
+      "name": "Thor Odinson",
+      "pre_part_i_status": "Prince of Asgard",
+      "age_at_start": 1500,
+      "personality": "Noble, proud, battle-confident, matures into responsible leadership",
+      "speech_pattern": "Formal, archaic-leaning diction, declarative statements",
+      "romance_potential": "possible"
+    }
+  ],
+  "canon_events_timeline": [
+    {"event": "Tony Stark kidnapped in Afghanistan", "approximate_chapter": 5, "preventable": true, "prevention_difficulty": "medium"},
+    {"event": "Battle of New York", "approximate_chapter": 25, "preventable": false},
+    {"event": "Hydra infiltration revealed", "approximate_chapter": 40, "preventable": true, "prevention_difficulty": "hard"},
+    {"event": "Sokovia crisis", "approximate_chapter": 55, "preventable": true, "prevention_difficulty": "hard"}
+  ],
+  "forbidden_before_canon_trigger": [
+    "Mjolnir wielding (worthiness constraint)",
+    "Infinity Stone direct handling without protection",
+    "Reliable Hulk transformation control under calm conditions",
+    "Sorcerer Supreme level spellcraft"
+  ]
+}

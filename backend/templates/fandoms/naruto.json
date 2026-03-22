@@ -1,0 +1,88 @@
+{
+  "fandom": "Naruto",
+  "default_era": "Pre-Part-I",
+  "power_system": {
+    "name": "Chakra",
+    "mechanics": "Chakra is formed by combining physical and spiritual energy. Ninja shape it into jutsu. Five basic natures: Fire, Water, Earth, Wind, Lightning. Advanced: Kekkei Genkai (bloodline limits), Tailed Beast chakra, Sage Mode (Nature Energy).",
+    "ranks": ["Academy Student", "Genin", "Chunin", "Special Jonin", "Jonin", "ANBU", "Kage", "S-Rank Legend"],
+    "jutsu_categories": ["Ninjutsu", "Taijutsu", "Genjutsu", "Fuinjutsu", "Kenjutsu", "Senjutsu", "Bukijutsu"],
+    "progression_gates": {
+      "Academy": ["Clone Jutsu", "Transformation", "Substitution", "Rope Escape"],
+      "Genin": ["Element affinity discovered (not mastered)", "First original jutsu possible"],
+      "Chunin": ["Second nature possible", "Fuinjutsu basics accessible"]
+    }
+  },
+  "factions": [
+    {"name": "Konohagakure", "alignment": "protagonist_allied", "leader": "Third Hokage (Hiruzen Sarutobi)"},
+    {"name": "Sunagakure", "alignment": "neutral_ally", "leader": "Fourth Kazekage"},
+    {"name": "Akatsuki", "alignment": "antagonist", "note": "Not yet public threat in early Pre-Part-I"},
+    {"name": "Root (ANBU)", "alignment": "hidden_antagonist", "leader": "Danzo Shimura"}
+  ],
+  "key_characters": [
+    {
+      "name": "Naruto Uzumaki",
+      "pre_part_i_status": "Academy Student",
+      "age_at_start": 9,
+      "personality": "Hyperactive, desperately craves recognition, acts before thinking, fiercely loyal, hides loneliness behind bravado",
+      "speech_pattern": "Enthusiastic, uses 'dattebayo' verbal tic, informal, simple vocabulary",
+      "romance_potential": "possible",
+      "tragedy": "Jinchuriki isolation, no parents"
+    },
+    {
+      "name": "Sasuke Uchiha",
+      "pre_part_i_status": "Academy Student",
+      "age_at_start": 9,
+      "personality": "Brooding, obsessed with revenge, competitive, respect must be earned not given, cold exterior over grief",
+      "speech_pattern": "Terse, formal, dismissive of those he considers weak",
+      "romance_potential": "possible",
+      "tragedy": "Itachi massacred his clan - Sasuke witnessed it"
+    },
+    {
+      "name": "Hinata Hyuga",
+      "pre_part_i_status": "Academy Student",
+      "age_at_start": 9,
+      "personality": "Deeply shy, self-doubting, extremely perceptive, admires inner strength over raw power, quietly determined",
+      "speech_pattern": "Soft, hesitant, often trails off, formal honorifics",
+      "romance_potential": "likely",
+      "note": "Byakugan heiress, complex relationship with Neji and her father"
+    },
+    {
+      "name": "Shikamaru Nara",
+      "pre_part_i_status": "Academy Student",
+      "age_at_start": 9,
+      "personality": "Genius-level IQ hidden behind deliberate laziness, deeply loyal once trust is earned, resents being forced to apply himself",
+      "speech_pattern": "Drawling, 'troublesome', matter-of-fact when serious",
+      "romance_potential": "none",
+      "note": "Best friendship candidate for strategic MC - mutual respect of intellect"
+    },
+    {
+      "name": "Kakashi Hatake",
+      "pre_part_i_status": "Jonin / ANBU",
+      "age_at_start": 22,
+      "personality": "Perpetually late, reads Icha Icha in public, deceptively observant, haunted by loss of his team, takes lives seriously when stakes are real",
+      "speech_pattern": "Casual, indirect, deflects personal questions with non-answers",
+      "romance_potential": "none",
+      "note": "Possible mentor - will test MC rigorously before extending any trust"
+    },
+    {
+      "name": "Itachi Uchiha",
+      "pre_part_i_status": "ANBU Captain (Pre-massacre)",
+      "age_at_start": 14,
+      "personality": "Calm, extraordinarily perceptive, acts from love while appearing cruel, carries impossible burdens alone",
+      "romance_potential": "none",
+      "note": "Critical tragedy prevention target - massacre happens when he is ~13"
+    }
+  ],
+  "canon_events_timeline": [
+    {"event": "Uchiha Massacre", "approximate_chapter": 20, "preventable": true, "prevention_difficulty": "very hard"},
+    {"event": "Naruto Academy Graduation Exam", "approximate_chapter": 8, "preventable": false},
+    {"event": "Chunin Exams", "approximate_chapter": 30, "preventable": false},
+    {"event": "Invasion of Konoha (Orochimaru)", "approximate_chapter": 40, "preventable": true, "prevention_difficulty": "hard"}
+  ],
+  "forbidden_before_canon_trigger": [
+    "Sharingan (requires emotional trauma or specific training)",
+    "Mangekyou Sharingan (requires witnessing death of closest person)",
+    "Rasengan (Minato's secret technique - not publicly known)",
+    "Sage Mode (requires Mount Myoboku invitation)"
+  ]
+}

@@ -1,0 +1,14 @@
+For {fandom} at this time: {era}
+
+List all canon characters who would logically interact with a new character.
+Use this fandom data as ground truth:
+{key_characters}
+
+For each character include:
+- name
+- age
+- faction
+- initial attitude
+- romance_eligible (bool)
+- relationship potential (ally/rival/mentor/enemy/romance)
+- tragedies ahead

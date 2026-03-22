@@ -1,0 +1,14 @@
+Analyze this {fandom} fanfiction configuration and extract world structure.
+
+CONFIG:
+{config}
+
+FANDOM CANON DATA:
+{fandom_data}
+
+Extract:
+- power system mechanics and limitations
+- all factions
+- key locations
+- current time period
+- social hierarchy

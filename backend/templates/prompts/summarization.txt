@@ -1,0 +1,6 @@
+Summarize this chapter in exactly 2-4 sentences.
+Include: the key plot event, the most significant character interaction,
+any abilities used or unlocked, and the most important relationship change.
+Be specific - name characters and events. Never write "things happened" or
+"the story progressed".
+Output only the summary text, no labels or JSON.

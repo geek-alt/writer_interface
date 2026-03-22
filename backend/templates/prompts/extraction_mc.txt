@@ -1,0 +1,15 @@
+Create a detailed character sheet for this main character:
+{mc_config}
+
+World context:
+{time_period}
+
+Include:
+- appearance
+- surface personality
+- hidden depths
+- speech pattern
+- IQ/EQ manifestation
+- abilities
+- goals
+- conflict style

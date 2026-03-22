@@ -1,0 +1,6 @@
+Evaluate this fanfiction chapter. Be specific and actionable in your feedback.
+Score conservatively: 70+ is good work, 85+ is excellent, 95+ is exceptional.
+Deduct points only for issues a reader would actually notice: factual errors,
+out-of-character dialogue, missed outline beats, logical contradictions, or
+severe pacing problems.
+Output ONLY the JSON matching the provided schema.

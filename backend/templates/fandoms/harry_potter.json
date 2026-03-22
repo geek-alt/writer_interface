@@ -1,0 +1,75 @@
+{
+  "fandom": "Harry_Potter",
+  "default_era": "Pre-Hogwarts-to-Second-War",
+  "power_system": {
+    "name": "Wizarding Magic",
+    "mechanics": "Magic is channeled through intent, incantation, wand movement, and emotional control. Core domains include charms, transfiguration, defensive magic, potions, and dark arts. Skill progression depends on study, discipline, and practical combat experience.",
+    "ranks": ["First-Year Student", "Upper-Year Student", "NEWT-Level Caster", "Auror-Candidate", "Master Duelist", "Legendary Wizard"],
+    "jutsu_categories": ["Charms", "Transfiguration", "Defense", "Potions", "Herbology", "Dark Arts", "Healing"],
+    "progression_gates": {
+      "School-Basics": ["Lumos", "Wingardium Leviosa", "Expelliarmus fundamentals"],
+      "Intermediate": ["Patronus potential", "Non-verbal casting introduction"],
+      "Advanced": ["Apparition license", "Complex shield layering", "Occlumency basics"]
+    }
+  },
+  "factions": [
+    {"name": "Order of the Phoenix", "alignment": "protagonist_allied", "leader": "Albus Dumbledore"},
+    {"name": "Ministry of Magic", "alignment": "institutional_neutral", "leader": "Cornelius Fudge"},
+    {"name": "Death Eaters", "alignment": "antagonist", "leader": "Lord Voldemort"},
+    {"name": "Hogwarts Staff", "alignment": "conditional_ally", "leader": "Headmaster"}
+  ],
+  "key_characters": [
+    {
+      "name": "Harry Potter",
+      "pre_part_i_status": "Student",
+      "age_at_start": 11,
+      "personality": "Brave, impulsive, loyal, often driven by moral instinct over institutional rules",
+      "speech_pattern": "Plainspoken, reactive under stress, direct questions",
+      "romance_potential": "possible"
+    },
+    {
+      "name": "Hermione Granger",
+      "pre_part_i_status": "Student",
+      "age_at_start": 11,
+      "personality": "Highly intelligent, rule-oriented early on, compassionate, relentless in preparation",
+      "speech_pattern": "Precise, explanatory, corrective when facts are wrong",
+      "romance_potential": "possible"
+    },
+    {
+      "name": "Ron Weasley",
+      "pre_part_i_status": "Student",
+      "age_at_start": 11,
+      "personality": "Warm, humorous, insecure about status, courageous when friends are threatened",
+      "speech_pattern": "Casual, colloquial, emotionally transparent",
+      "romance_potential": "possible"
+    },
+    {
+      "name": "Severus Snape",
+      "pre_part_i_status": "Potions Master",
+      "age_at_start": 31,
+      "personality": "Severe, disciplined, emotionally repressed, morally complex with long-term covert goals",
+      "speech_pattern": "Cold, clipped, cutting sarcasm",
+      "romance_potential": "none"
+    },
+    {
+      "name": "Albus Dumbledore",
+      "pre_part_i_status": "Headmaster",
+      "age_at_start": 110,
+      "personality": "Brilliant, enigmatic, benevolent but strategic with information control",
+      "speech_pattern": "Measured, metaphorical, calm authority",
+      "romance_potential": "none"
+    }
+  ],
+  "canon_events_timeline": [
+    {"event": "Philosopher's Stone confrontation", "approximate_chapter": 10, "preventable": false},
+    {"event": "Chamber of Secrets opened", "approximate_chapter": 18, "preventable": true, "prevention_difficulty": "medium"},
+    {"event": "Triwizard Tournament and graveyard return", "approximate_chapter": 35, "preventable": false},
+    {"event": "Battle of Hogwarts", "approximate_chapter": 70, "preventable": false}
+  ],
+  "forbidden_before_canon_trigger": [
+    "Unforgivable Curses in lawful instruction contexts",
+    "Horcrux creation knowledge",
+    "Mastery-level non-verbal duel casting before advanced years",
+    "Elder Wand allegiance manipulation"
+  ]
+}

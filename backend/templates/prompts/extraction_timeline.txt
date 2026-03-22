@@ -1,0 +1,11 @@
+Create a chapter-by-chapter timeline for "{volume_name}" ({chapters} chapters).
+Arc goals: {arc_goals}
+World: {time_period}
+
+For each chapter include:
+- title
+- key plot beat
+- characters involved
+- relationship developments
+- MC growth
+- canon events to address
